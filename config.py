@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID","6435225")) # Get this value from my.telegram.org/apps
 API_HASH = getenv("API_HASH","4e984ea35f854762dcde906dce426c2d") # Get this value from my.telegram.org/apps
 BOT_TOKEN = getenv("BOT_TOKEN","6712299772:AAEw3kgBX6R1oDkmJo9vwXkMankulKjEj_s") # Get your token from @BotFather on Telegram.
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://AM:AM@am.9zeddhx.mongodb.net/?retryWrites=true&w=majority") # Get your mongo url from cloud.mongodb.com
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://DevuMusicBot:mXotcbW7fY7scsji@devumusicbot.byhdlbn.mongodb.net/?retryWrites=true&w=majority") # Get your mongo url from cloud.mongodb.com
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "9999"))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002046405731"))  # Chat id of a group for logging bot's activities/ Music Play Logs
 PUBLICELOGS = int(getenv("PUBLICELOGS", "-1001908325043")) # Chat id of a group for Bot Added Messege/Leaved Messege U can Add Your Support Group id Aslo
