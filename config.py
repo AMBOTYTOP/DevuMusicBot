@@ -19,7 +19,7 @@ OWNER_ID = int(getenv("OWNER_ID", "6477647758")) # Get this value from @Sophia_x
 ## Fill these variables if you're deploying on heroku.
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")# Your heroku app name
 HEROKU_API_KEY = getenv("HEROKU_API_KEY") # Get it from http://dashboard.heroku.com/account
-UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/AMOPBOT/DevuMusicBot",)
+UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/AMBOTYTOP/DevuMusicBot",)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)# Fill this variable if your upstream repository is private
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/devrajxd")
